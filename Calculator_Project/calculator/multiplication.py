@@ -28,6 +28,22 @@ def multiplying_2_numbers(first_num, second_num):
     return result_2_nums
 
 
+# LAMBDA Function: To MULTIPLY given 2 Numbers
+# func_multiply = lambda first_no, second_no: first_no * second_no
+# NOTE: Passing Lambda Function as 3rd Argument to below function..
+
+
+def multiplying_2_numbers_using_lambda(first_num, second_num, func_multiply):
+    """
+    This function subtracts the given two numbers using Lambda or Anonymous Function
+    :param first_num:
+    :param second_num:
+    :param func_multiply:
+    :return: Returns the SUBTRACTION Value of Second from the First Number
+    """
+    return func_multiply(first_num, second_num)
+
+
 def multiplying_3_numbers(first_num, second_num, third_num):
     """
     This function multiplies the given three numbers
