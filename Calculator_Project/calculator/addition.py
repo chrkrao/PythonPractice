@@ -27,15 +27,19 @@ def add_2_numbers(first_no, second_no):
     return sum_of_2_numbers
 
 
-def adding_2_numbers_using_lambda(first_num, second_num):
+# LAMBDA Function: To ADD given 2 Numbers
+# func_lambda = lambda first_no, second_no: first_no + second_no
+# NOTE: Passing Lambda Function as 3rd Argument to below function..
+
+def adding_2_numbers_using_lambda(first_num, second_num, fn_add):
     """
-    This function adds the given two numbers using Lambda or Anonymous Function
+    This function adds the given two numbers using Lambda Function or Anonymous Function
     :param first_num:
     :param second_num:
+    :param fn_add: Using fn_add Function to make the Addition Task by passing Numbers
     :return: Returns the SUM of the Two Numbers
     """
-    result_lambda = lambda first, second: first + second
-    return result_lambda
+    return fn_add(first_num, second_num)
 
 
 def add_3_numbers(first_no, second_no, third_no):
@@ -88,4 +92,3 @@ def adding_required_numbers():
         result_sum += int(input("Enter the Number-" + str(counter + 1) + " : "))
         counter += 1
     return result_sum
-
