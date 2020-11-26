@@ -28,15 +28,19 @@ def subtracter(first_num, second_num):
     return result
 
 
-def subtracting_2_numbers_using_lambda(first_num, second_num):
+# LAMBDA Function: To SUBTRACT given 2 Numbers
+# func_sub = lambda first_no, second_no: first_no - second_no
+# NOTE: Passing Lambda Function as 3rd Argument to below function..
+
+def subtracting_2_numbers_using_lambda(first_num, second_num, func_sub):
     """
     This function subtracts the given two numbers using Lambda or Anonymous Function
     :param first_num:
     :param second_num:
+    :param func_sub:
     :return: Returns the SUBTRACTION Value of Second from the First Number
     """
-    result_lambda = lambda first, second: first - second
-    return result_lambda
+    return func_sub(first_num, second_num)
 
 
 def subtracting_n_numbers(*numbers):
