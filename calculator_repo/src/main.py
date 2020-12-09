@@ -1,8 +1,7 @@
-
-# import lib.addition as a
-# import lib.multiplication as m
-# import lib.subtraction as s
-# import lib.division as d
+import addition as a
+import multiplication as m
+import subtraction as s
+import division as d
 
 # from Calculator_Project.calculator import addition
 # from Calculator_Project.calculator import subtraction
@@ -12,7 +11,7 @@
 # Making Calls to ADDITION Methods
 print("\n### : Making Calls to ADDITION Methods : ###")
 print("Calling add Numbers :", a.add())
-a.add()
+
 
 print("Adding 2 Numbers (10, 20) :", a.add_2_numbers(10, 20))
 
