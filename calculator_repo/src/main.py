@@ -10,7 +10,10 @@ import division as d
 
 # Making Calls to ADDITION Methods
 print("\n### : Making Calls to ADDITION Methods : ###")
-print("Calling add Numbers :", a.add())
+first_num = int(input("Enter the First Number: "))
+second_num = int(input("Enter another Second Number: "))
+
+print("Calling add Numbers :", a.add_2_numbers(first_num, second_num))
 
 
 print("Adding 2 Numbers (10, 20) :", a.add_2_numbers(10, 20))

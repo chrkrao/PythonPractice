@@ -5,16 +5,17 @@
 # DESCRIPTION   : To create addition() Methods for CALC
 ###################################################################
 
-def add():
-    """
-    This function is to add any given two numbers
-    :return: Returns the ADDITION of Two Numbers supplied
-    """
-    first_num = int(input("Enter the First Number: "))
-    second_num = int(input("Enter another Second Number: "))
-    print(
-        f"Result of ADDITION : {first_num} + {second_num} = {first_num + second_num}")
-    return first_num + second_num
+# BOOTHU - DO NOT DO THIS AGAIN ~ nGutha
+# def add():
+#     """
+#     This function is to add any given two numbers
+#     :return: Returns the ADDITION of Two Numbers supplied
+#     """
+#     first_num = int(input("Enter the First Number: "))
+#     second_num = int(input("Enter another Second Number: "))
+#     print(
+#         f"Result of ADDITION : {first_num} + {second_num} = {first_num + second_num}")
+#     return first_num + second_num
 
 
 def add_2_numbers(first_no, second_no):
